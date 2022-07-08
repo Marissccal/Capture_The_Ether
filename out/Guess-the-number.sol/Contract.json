@@ -1,0 +1,58 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122099f5f2d36165619658f3078f76a17a6ae11915a6e43795969e8674f2ed51332164736f6c634300080d0033",
+    "sourceMap": "65:20:9:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052600080fdfea264697066735822122099f5f2d36165619658f3078f76a17a6ae11915a6e43795969e8674f2ed51332164736f6c634300080d0033",
+    "sourceMap": "65:20:9:-:0;;;;;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {},
+  "ast": {
+    "absolutePath": "src\\Guess-the-number.sol",
+    "id": 21054,
+    "exportedSymbols": {
+      "Contract": [
+        21053
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:47:9",
+    "nodes": [
+      {
+        "id": 21052,
+        "nodeType": "PragmaDirective",
+        "src": "39:24:9",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".13"
+        ]
+      },
+      {
+        "id": 21053,
+        "nodeType": "ContractDefinition",
+        "src": "65:20:9",
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Contract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          21053
+        ],
+        "name": "Contract",
+        "nameLocation": "74:8:9",
+        "scope": 21054,
+        "usedErrors": []
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 9
+}
