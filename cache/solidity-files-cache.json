@@ -339,6 +339,44 @@
         }
       }
     },
+    "src\\Guess-the-random-number.sol": {
+      "lastModificationDate": 1659320238644,
+      "contentHash": "68e62e2db420d97a2d5db4fce2bbce48",
+      "sourceName": "src\\Guess-the-random-number.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "GuessTheRandomNumberChallenge": {
+          "0.8.13+commit.abaa5c0e.Windows.msvc": "Guess-the-random-number.sol\\GuessTheRandomNumberChallenge.json"
+        }
+      }
+    },
     "src\\Guess-the-secret-number.sol": {
       "lastModificationDate": 1657242600391,
       "contentHash": "08150049b3b49e518ea036700e91babf",
@@ -420,6 +458,52 @@
       "artifacts": {
         "ContractTest": {
           "0.8.13+commit.abaa5c0e.Windows.msvc": "guess-the-number.t.sol\\ContractTest.json"
+        }
+      }
+    },
+    "test\\guess-the-random.number.t.sol": {
+      "lastModificationDate": 1659320940315,
+      "contentHash": "c443b8ca4f336b3213a11387f1c0543d",
+      "sourceName": "test\\guess-the-random.number.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/forge-std/lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Script.sol",
+        "lib/forge-std/src/Test.sol",
+        "lib\\forge-std\\src\\Vm.sol",
+        "lib\\forge-std\\src\\console.sol",
+        "lib\\forge-std\\src\\console2.sol",
+        "src\\Guess-the-random-number.sol"
+      ],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "Challenge3Test": {
+          "0.8.13+commit.abaa5c0e.Windows.msvc": "guess-the-random.number.t.sol\\Challenge3Test.json"
         }
       }
     },
